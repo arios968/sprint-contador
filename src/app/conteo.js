@@ -4,15 +4,15 @@ export const conteo = () => {
 
     let difference = endDate - now;
 
-    let seconds = 1000;
-    let minutes = seconds * 60;
-    let hours = minutes * 60;
-    let days = hours * 24;
+    let segundos = 1000;
+    let minutos = segundos * 60;
+    let horas = minutos * 60;
+    let dias = horas * 24;
 
-    let timeDays = Math.floor(difference / days);
-    let timeHours = Math.floor((difference % days) / hours);
-    let timeMinutes = Math.floor((difference % hours) / minutes);
-    let timeSeconds = Math.floor((difference % minutes) / seconds);
+    let timeDays = Math.floor(difference / dias);
+    let timeHours = Math.floor((difference % dias) / horas);
+    let timeMinutes = Math.floor((difference % horas) / minutos);
+    let timeSeconds = Math.floor((difference % minutos) / segundos);
 
     document.getElementById("dias").innerHTML = timeDays;
     document.getElementById("horas").innerHTML = timeHours;
