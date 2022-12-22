@@ -21,4 +21,4 @@ export const conteo = () => {
 };
 
 setInterval(conteo, 1000);
-console.log(holi);
+
