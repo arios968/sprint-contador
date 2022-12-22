@@ -106,7 +106,7 @@ body{
 }
 
 
-/* socials */
+/* sociales */
 
 .sociales {
     position:absolute;
@@ -125,7 +125,8 @@ body{
     }
 
     li :hover {
-        background-color: $color3;
+        
+        filter: invert(49%) sepia(100%) saturate(1640%) hue-rotate(310deg) brightness(101%) contrast(98%);
     }
 
 
